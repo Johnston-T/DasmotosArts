@@ -1,3 +1,7 @@
+body {
+    background-color: antiquewhite;
+}
+
 h1 {
     text-align: center;
     font-family: Helvetica;
@@ -5,7 +9,8 @@ h1 {
     font-weight: bold;
     color:khaki;
     position: relative;
-    top: -165px;
+    top: -40px;
+    background-image: url(../images/colorful_tilePattern.jpeg);
     
 }
 
@@ -15,10 +20,6 @@ a {
     color: blue;
 }
 
-#brushes {
-    position: relative;
-    top: -200px;
-}
 
 #brushes h2 {
     background-color: mediumspringgreen;
@@ -28,10 +29,3 @@ a {
     color: white;
 }
 
-.title {
-    background-image: url(../images/colorful_tilePattern.jpeg);
-    height:100px;
-    margin-top: 40px;
-    
-    
-}
