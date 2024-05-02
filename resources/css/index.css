@@ -1,31 +1,50 @@
-body {
-    background-color: antiquewhite;
+/*Makes all the text on the page have the helvetica typeface*/
+* {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+/*Sets the style properties of the main heading and adds a background image to it*/
 h1 {
     text-align: center;
-    font-family: Helvetica;
     font-size: 100px;
     font-weight: bold;
     color:khaki;
     position: relative;
     top: -40px;
     background-image: url(../images/colorful_tilePattern.jpeg);
+    /*Makes sure if the background image doesn't load, that it will still have a background*/
+    background-color: #6f0000;
     
 }
 
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+h3 {
+    font-weight: bold;
+    text-align: left;
+}
+
+/*Make links bold and colorful*/
 a {
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: blue;
 }
 
 
+
+/*Sets the background colors for each sections heading*/
 #brushes h2 {
     background-color: mediumspringgreen;
-    font-size: 32px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: white;
 }
 
+#frames h2 {
+    background-color: lightcoral;
+}
+
+#paint h2 {
+    background-color: skyblue;
+}
